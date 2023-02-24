@@ -1,0 +1,22 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "baseUrl": "src",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "ES6",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "ES2020",
+      "dom"
+    ]
+  }
+}
